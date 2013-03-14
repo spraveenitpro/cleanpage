@@ -101,6 +101,7 @@ a:hover { text-decoration: underline; }
   max-width: 900px;
   margin: 0 auto;
   padding: 0 15px;
+  border-radius:10px; /* regular */
 }
 
 #container #content {
@@ -108,7 +109,8 @@ a:hover { text-decoration: underline; }
   background: #fffdf8;
   -webkit-border-top-left-radius: 5px;
   -moz-border-radius-topleft: 5px;
-  border-top-left-radius: 5px;
+  
+  border-radius: 10px;
   
 }
 
@@ -251,7 +253,7 @@ footer {
   width: 880px;
   margin: 30px auto;
   height: 66px;
-  background: #fffdf8;
+  background: rgba(255,255,255,0.55);
 /*  margin-top: 30px;
   margin-bottom: 45px;  */
   -webkit-box-shadow: 1px 2px 4px rgba(0,0,0,0.35);
@@ -260,6 +262,6 @@ footer {
   text-align: center;
   padding-top: 30px;
   font-family :Helvetica;
-  font-size: 15px;
+  font-size: 15px;color: #666;
 
 }
